@@ -2,14 +2,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    padding: 0;
   }
   /* adde padding of container to 39px */
 
   .container{ 
-     padding: 39px;
+     padding: 40px;
 
   }
-  /* adjusting the with of the css to 85% */
+  /* adjusting the with of the css to 84.85% */
   textarea {
     background: transparent;
     border: none;
@@ -17,7 +18,7 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
-    width: 85%
+    width: 84.85%;
   }
   
   .jumbotron {
@@ -25,7 +26,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid black;
   }
   
   .description {
@@ -47,6 +48,8 @@ body {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
+    padding-top: 25px;
+    width: 90px;
   }
   
   .past {
@@ -63,7 +66,7 @@ body {
     background-color: #77dd77;
     color: gray;
   }
-   /* added width button to 74 px */
+   /* added width button to 75 px */
 
   .saveBtn {
     border-left: 1px solid black;
