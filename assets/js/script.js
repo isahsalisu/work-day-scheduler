@@ -25,8 +25,19 @@ $(document).ready(function () {
       }
       ToUpdateHourSec();
 
+       // Storing the input data from the textarea to  localstorage
 
-
+    $('.saveBtn').click(function () {
+        var value = $(this).prev().val(),
+          time = $(this).closest('.time-block').attr('id');
+        localStorage.setItem(time, value);
+      });
+    
+       // Using for each loops to load back saved data from local storage per hours
+      var hourIds = ['hour9', 'hour10', 'hour11', 'hour12', 'hour13', 'hour14', 'hour15', 'hour16', 'hour17'];
+      hourIds.forEach(function (hourId) {
+        $('#' + hourId + ' .description').val(localStorage.getItem(hourId));
+      });
 
 
 });
