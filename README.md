@@ -1,22 +1,15 @@
-# Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
+   A simple web application that allows users to schedule events during standard business hours (9AM to 5PM).
 
-## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+# Third-Party APIs:  Moment.js
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
-## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+## Features
 
-The app should:
+My app does:
 
 * Display the current day at the top of the calender when a user opens the planner.
  
@@ -35,53 +28,28 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
 
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
 
-### Technical Acceptance Criteria: 40%
+## Getting Started
+- Clone or download the repository
+- Open the index.html file in a web browser
+- Use the application by entering events in the text area for each time block
+- Save events by clicking the save button for each time block
 
-* Satisfies all of the above acceptance criteria plus the following:
+## Built With
+- JQuery
+- Moment.js
+- HTML
+- CSS
+- Local Storage API
 
-  * Uses a date utility library to work with date and time
+## Future Improvements
+* Add the ability to delete events
+* Add the ability to edit events
+* Add the ability to move events between time blocks
 
-### Deployment: 32%
+## Contributions
+      All contributions are welcome. If you have any suggestions or improvements, please feel free to submit a pull request.
 
-* Application deployed at live URL
 
-* Application loads with no errors
 
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

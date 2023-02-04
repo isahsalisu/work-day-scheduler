@@ -10,7 +10,7 @@ body {
      padding: 40px;
 
   }
-  /* adjusting the with of the css to 85% */
+  /* adjusting the with of the css to 84.85% */
   textarea {
     background: transparent;
     border: none;
@@ -26,7 +26,7 @@ body {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid black;
   }
   
   .description {
@@ -66,7 +66,7 @@ body {
     background-color: #77dd77;
     color: gray;
   }
-   /* added width button to 74 px */
+   /* added width button to 75 px */
 
   .saveBtn {
     border-left: 1px solid black;
