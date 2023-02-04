@@ -2,7 +2,7 @@
    A simple web application that allows users to schedule events during standard business hours (9AM to 5PM).
 
 
-# Third-Party APIs:  Moment.js
+## Third-Party APIs:  Moment.js
 
 
 
@@ -25,7 +25,7 @@ My app does:
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](assets/images/screenshoot-Scheduler1.png)
 
 
 
